@@ -1,0 +1,26 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+     .bg-img{
+        background-image: url("purple.png");
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }
+    .a{
+        border: 2px solid white;
+        background-color:rgb(252, 209, 21) ;
+        color: white;
+        padding-left: 10px;
+    }
+    .b{
+        border:none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 100px;
+}
+#custom{
+    height: 550px;
+}
+.box-shadow{
+    box-shadow: 0px 1px 2px 0px;
+}

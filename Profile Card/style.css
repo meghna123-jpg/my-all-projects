@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu",sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    height: 700px;
+    background-image: url("scenary.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+}
+.profile-card{
+    position: relative;
+    top:10%;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 400px;
+}
+.picture img{
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    border: 5px solid rgb(223, 104, 60);
+    animation: animated-gradient 5s infinite;
+}
+
+@keyframes animated-gradient {
+0%{
+    border-color: rgb(223, 104, 60);
+}
+25%{
+    border-color: rgb(245, 184, 16);
+}
+50%{
+    border-color: green;
+}
+75%{
+    border-color:orangered ;
+}
+100%{
+    border-color:rgb(243, 243, 36);
+}
+}
+.card-header{
+    background-color: rgb(23, 65, 23);
+    padding: 60px 40px;
+}
+.name{
+    color: rgba(255, 255, 255, 0.938);
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.description{
+    font-size: 18px;
+    color: rgb(241, 96, 70);
+}
+.icon{
+    margin: 20px 0;
+    justify-content: center;
+    display: flex;
+}
+.icon a{
+    color: white;
+    width: 56px;
+    font-size: 18px;
+}
+.icon a:hover{
+    color: rgb(241, 96, 70);
+}
+.contact-btn{
+    display: inline-block;
+    padding: 12px 50px;
+    color:rgb(241, 96, 70);
+    border: 2px solid rgb(241, 96, 70);
+    border-radius: 6px;
+    margin-top: 14px;
+}
+.contact-btn:hover{
+    background-color: rgb(241, 96, 70);
+    color: white;
+}
+.card-footer{
+    background-color:white;
+    padding: 60px 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.numbers{
+    display: flex;
+    align-items: center;
+}
+.item{
+    flex:1;
+    text-transform: uppercase;
+    font-size: 13px;
+    color:rgb(241, 96, 70);
+}
+.item span{
+    display: block;
+    color:rgb(23, 65, 23);
+    font-size: 30px;
+} 
+.border{
+    width: 0.5px;
+    height: 30px;
+    background-color:rgb(23, 65, 23);
+}
