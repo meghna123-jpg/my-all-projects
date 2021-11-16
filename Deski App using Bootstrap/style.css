@@ -1,0 +1,655 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+box-sizing: border-box;}
+.mobile1{
+    width: 280px;
+    height: 580px;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin-top: 100px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 1px 5px 10px 3px rgb(172, 160, 160);
+}
+.mobile2{
+    width: 310px;
+    height: 650px;
+    border: 2px solid white;
+    border-radius: 40px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 1px 5px 10px 3px rgb(172, 160, 160);
+    margin-top: 60px;
+}
+.mobile3{
+    width: 300px;
+    height: 580px;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin-top: 100px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 1px 5px 10px 3px rgb(172, 160, 160);
+
+}
+.mob{
+    background-image: url('Untitled\ design\ \(35\).png');
+    height: 770px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+.gdrive{
+    margin-right: 160px;
+}
+.google{
+    margin-left: 160px;
+}
+.colhdng{
+    font-size: 17px;
+    font-weight: bold;
+}
+.coltxtbox{
+    border : 1px solid rgb(211, 201, 201);
+    display: flex;
+    border-radius: 10px;
+}
+.filter{
+    margin-left: auto;
+    margin-top: 15px;
+}
+.search{
+    margin-top: 15px;
+}
+.location{
+    color: rgb(160, 154, 154);
+}
+.violet{
+    background-color: rgb(238, 207, 238);
+    border-radius: 10px;
+    color: rgba(116, 37, 116, 0.884);
+}
+.brown{
+    background-color: rgb(245, 205, 153);
+    border-radius: 10px;
+    color: rgba(199, 99, 17, 0.884);
+}
+.news{
+    font-weight: bold;
+}
+.community{
+    border: 2px solid rgb(197, 188, 188);
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.community span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.members{
+    font-weight: bold;
+    font-size: 15px;
+}
+.number{
+    font-weight: bold;
+    font-size: 17px;
+}
+.button{
+    color: white;
+    background-color: rgb(94, 9, 94);
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    padding:5px 12px ;
+}
+.userbtn{
+    background-color: black;
+    border-radius: 25px;
+    border: none;
+}
+.money{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(94, 9, 94);
+}
+.Tom{
+    color: rgb(94, 9, 94);
+    font-size: 28px;
+}
+.dollarsign{
+    font-size: 21px;
+    font-weight: bold;
+    color: rgb(94, 9, 94);
+}
+.button2{
+    border: none;
+    background-color: rgb(94, 9, 94);
+   border-radius: 15px;
+     color: white;
+     padding: 10px 60px;
+}
+.collection{
+    font-size: 13px;
+    color: rgba(236, 130, 43, 0.884);
+    letter-spacing: 0.1cm;
+    font-weight: bold;
+}
+.electro{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(68, 10, 68);
+}
+.smarter{
+    font-size: 12px;
+    color: rgb(109, 104, 104);
+}
+.dollarno{
+    font-size:30px;
+    font-weight: bold;
+    color: rgb(68, 10, 68);
+}
+.four{
+    font-weight: bold;
+    font-size: 15px;
+}
+.savebtn{
+    color: rgb(68, 10, 68);
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    padding: 0px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: rgb(220, 244, 253);
+}
+.saveicon{
+    padding: 0px 10px;
+background-color: rgb(68, 10, 68);
+border-radius: 10px;
+border: none;
+}
+.para{
+    font-size: 10px;
+    color: rgb(173, 156, 156);
+    font-weight: 600;
+}
+.rowsetting{
+    margin: 80px 0px;
+}
+.imgsetting1{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(243, 220, 177);
+}
+.icon{
+    margin-top: 15px;
+}
+.imgsetting2{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(210, 255, 247, 0.904);
+}
+.imgsetting3{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(247, 228, 231);
+}
+.hdng2{
+font-size: 25px;
+margin-top: 20px;
+}
+.para1{
+font-size: 15px;
+color: rgb(151, 139, 139);
+margin-top: 20px;
+}
+.privacy{
+    text-decoration: underline;
+}
+.bg-img{
+    background-image: url('desktop.png');
+    height: 150px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+   .heading1, .heading2{
+        font-size: 35px;
+    }
+    .onehundred{
+        margin-top: 80px;
+    }
+/*Responsive*/
+   /* @media (min-width: 992px){
+        .nav-item{
+            display: none;
+        }
+     .dwnld1{
+            display: none;
+        }
+        .logo-img{
+            display: block;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }*/
+    @media (min-width: 768px) and (max-width:991px){
+        .logo-img{
+            position: relative;
+        }
+        .heading1{
+            position: absolute;
+            top: -110px;
+            font-size: 30px;
+            right: -26px;
+            display:inline-block;
+        }
+        .heading2{
+            position: absolute;
+            top: -90px;
+            font-size: 30px;
+            right: -24px;
+            display:inline-block;
+        }
+        .deski{
+            position: absolute;
+            top: -80px;
+        }
+        .apple{
+    margin-top: -90px; 
+    margin-bottom: 50px;  
+     }
+     .orangediamond{
+     position: relative;
+     left: 100px;
+     top: 150px;
+     }
+     .dropboxblue{
+         position: absolute;
+         left: -190px;
+         top: 150px;
+     }
+     .google{
+         position: absolute;
+         top: 90px;
+         left: -220px;
+     }
+     .googledrive2{
+         position: absolute;
+         top: 90px;
+         left: 490px;
+     }
+     .nike{
+         position: relative;
+         top: 170px;
+         left: 70px;
+     }
+     .instagram1{
+         position: absolute;
+         top: 110px;
+         left: 220px;
+     }
+     .googledrive1{
+         position: absolute;
+         top: 169px;
+       left:-40px;
+     }
+     .pinterest1{
+         position: absolute;
+         top: 110px;
+         left: 20px;
+     }
+     .mob{
+         margin-top: 50px;
+     }
+     .mobile1{
+position: relative;
+margin-top: -10px;
+left: 70px;
+     }
+     .mobile2{
+         position: absolute;
+         top: 20%;
+         left: 320px;
+     }
+    .mobile3{
+        position: relative;
+        left: -280px;
+        top: 400px;
+    }
+    .rowsetting{
+        margin-top: 300px;
+    }
+    .hdng2{
+        font-size: 20px;
+    }
+    .para1{
+        font-size: 14px;
+    }
+     }
+     @media (min-width: 575px) and (max-width:767px){
+        .nav-item{
+            display: none;
+        }
+     .dwnld1{
+            display: none;
+        }
+        .logo-img{
+            display: block;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .heading1{
+            position: relative;
+            top: -110px;
+            font-size: 25px;
+            margin: auto;
+            display:inline-block;
+            height: 50px;
+        }
+        .heading2{
+            position: absolute;
+            top: -90px;
+            font-size: 25px;
+        margin: auto;    
+        display:inline-block;
+        }
+        .deski{
+            position: absolute;
+            top: -50px;
+        }
+        .apple{
+            position: relative;
+    margin-top: -70px;
+    left: -100px;
+    margin-bottom: 50px;  
+     }
+     .orangediamond{
+     position: relative;
+     left: 30px;
+     top: 200px;
+     }
+     .dropboxblue{
+         position: absolute;
+         left: -150px;
+         top: 200px;
+     }
+     .google{
+         position: absolute;
+         top: 105px;
+         left: -160px;
+     }
+     .googledrive2{
+         position: absolute;
+         top: 105px;
+         left: 410px;
+     }
+     .nike{
+         position: relative;
+         top: 190px;
+         left: -30px;
+     }
+     .instagram1{
+         position: absolute;
+         top: 130px;
+         left: 140px;
+     }
+     .googledrive1{
+         position: absolute;
+         top: 189px;
+       left: 10px;
+     }
+     .pinterest1{
+         position: absolute;
+         top: -18px;
+         left: 450px;
+     }
+     .mob{
+        margin-top: 50px;
+    }
+     .mobile1{
+        position: relative;
+        margin-top: -60px;
+        left: -80px;
+               }      
+              .mobile2{
+                position: absolute;
+                top: 30%;
+                left: 260px;
+            }
+            .mobile3{
+                position: absolute;
+                left: 10px;
+                top: 70%;
+            }
+            .rowsetting{
+                margin-top: 400px;
+            }
+    }
+    @media (min-width: 480px) and (max-width: 574px){
+                .nav-item{
+            display: none;
+        }
+     .dwnld1{
+            display: none;
+        }
+        .logo-img{
+            display: block;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .heading1{
+            position: relative;
+            top: -110px;
+            font-size: 25px;
+            margin: auto;
+            display:inline-block;
+        }
+        .heading2{
+            position: absolute;
+            top: -110px;
+            font-size: 25px;
+        margin: auto;    
+        display:inline-block;
+        }
+        .deski{
+            position: absolute;
+            top: -70px;
+        }
+        .apple{
+            position: relative;
+    margin-top: -70px;
+    left: -75px;
+    margin-bottom: 50px;  
+     }
+     .orangediamond{
+     position: relative;
+     left: 20px;
+     top: 220px;
+     }
+     .dropboxblue{
+         position: absolute;
+         left: -140px;
+         top: 220px;
+     }
+     .google{
+         position: absolute;
+         top: 100px;
+         left: -150px;
+     }
+     .googledrive2{
+         position: absolute;
+         top: 100px;
+         left: 370px;
+     }
+     .nike{
+         position: relative;
+         top: 190px;
+         left: -30px;
+     }
+     .instagram1{
+         position: absolute;
+         top: 130px;
+         left: 110px;
+     }
+     .googledrive1{
+         position: absolute;
+         top: 189px;
+       left: 10px;
+     }
+     .pinterest1{
+         position: absolute;
+         top: -18px;
+         left: 410px;
+     }
+     .mob{
+        margin-top: 50px;
+    }
+     .mobile1{
+        position: relative;
+        margin-top: -60px;
+        left: -40px;
+               }      
+              .mobile2{
+                position: absolute;
+                top: 20%;
+                left: 250px;
+            }
+            .mobile3{
+                position: absolute;
+                left: 5px;
+                top: 70%;
+            }
+            .rowsetting{
+                margin-top: 400px;
+            }
+            .hdng2{
+                font-size: 20px;
+            }
+            .para1{
+                font-size: 12px;
+            }
+    }
+@media(max-width:479px){
+    .nav-item{
+        display: none;
+    }
+ .dwnld1{
+        display: none;
+    }
+    .logo-img{
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .heading1{
+        position: relative;
+        top: -110px;
+        font-size: 22px;
+        margin: auto;
+        display:inline-block;
+    }
+    .heading2{
+        position: absolute;
+        top: -130px;
+        font-size: 22px;
+    margin: auto;    
+    display:inline-block;
+    }
+    .deski{
+        position: absolute;
+        top: -50px;
+    }
+    .apple{
+        position: relative;
+margin-top: -50px;
+left: -3px;
+margin-bottom: 50px;  
+ }
+ .orangediamond{
+ position: relative;
+ left: -20px;
+ top: 250px;
+ }
+ .dropboxblue{
+     position: absolute;
+     left: -120px;
+     top: 250px;
+ }
+ .google{
+     position: absolute;
+     top: 105px;
+     left: -0px;
+ }
+ .googledrive2{
+     position: absolute;
+     top: 105px;
+     left: 300px;
+ }
+ .nike{
+     position: relative;
+     top: 190px;
+     left: -90px;
+ }
+ .instagram1{
+     position: absolute;
+     top: 130px;
+     left: 50px;
+ }
+ .googledrive1{
+     position: absolute;
+     top: 189px;
+   left: 10px;
+ }
+ .pinterest1{
+     position: absolute;
+     top: -40px;
+     left: 330px;
+ }
+ .mob{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+ .mobile1{
+    position: relative;
+    margin-top: -80px;
+    left: 10px;
+           }      
+          .mobile2{
+            position: absolute;
+            top: 30%;
+            left: 170px;
+        }
+        .mobile3{
+            position: absolute;
+            left: 5px;
+            top: 60%;
+        }
+        .rowsetting{
+            margin-top: 400px;
+        }
+        .hdng2{
+            font-size: 20px;
+        }
+        .para1{
+            font-size: 12px;
+        }
+}
+
+
