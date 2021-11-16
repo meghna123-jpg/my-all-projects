@@ -1,0 +1,52 @@
+body {
+    margin:0;
+    padding: 0;
+    background-color: #0a3d62;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  .buttons a{
+      display: inline-block;
+      width: 56px;
+      margin: 10px;
+      border: 1px solid white;
+      margin: 20px;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 35px;
+      color: #0a3d62;
+      background-color: rgba(255, 255, 255, 0.993);
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      box-shadow: 6px 6px 12px black;
+      transition: transform 2s;
+  }
+  a:hover{
+    transform: rotate(360deg);
+    border-radius: 50%;
+  }
+
+  a .fa-facebook-f:hover{
+      color: #3b5998;
+      font-size: 45px;
+  }
+  a .fa-twitter:hover{
+      color: #1da1f2;
+      font-size: 45px;
+}
+a .fa-instagram:hover{
+  color: #c32aa3;
+  font-size: 45px;
+}
+a .fa-youtube:hover{
+    color: #d71e18;
+    font-size: 45px;
+}
+a .fa-linkedin-in:hover{
+    color: #007bb5;
+    font-size: 45px;
+}
